@@ -120,7 +120,7 @@ var BioCard = function BioCard() {
     className: "bio-photo",
     "data-aos": "fade-right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "./../../assets/images/purple.jpg",
+    src: "./images/purple.jpg",
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bio-info",
