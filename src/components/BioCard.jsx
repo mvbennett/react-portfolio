@@ -17,8 +17,6 @@ const BioCard = () => {
           <span className="main-skill">React</span>
           <span className="divider">|</span>
           <span className="main-skill">Node</span>
-          <span className="divider">|</span>
-          <span className="main-skill">ExpressJS</span>
         </h3>
         <p>
           Full stack web developer and freelance photographer in NYC.

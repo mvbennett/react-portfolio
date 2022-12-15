@@ -121,6 +121,10 @@
     flex-direction: column;
   }
 
+  .bio-info {
+    width: 100%;
+  }
+
   .skills-box {
     margin-bottom: 80px;
   }
