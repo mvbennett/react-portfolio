@@ -1,6 +1,7 @@
 .project-card {
-  margin: 10px 0;
+  margin: 40px 0;
   text-align: center;
+  min-height: 250px;
   height: 50vh;
   display: flex;
   justify-content: space-between;
@@ -92,7 +93,7 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px;
-  margin: 8px auto 40px auto;
+  margin: 8px auto 40px;
   display: grid;
   column-gap: 6%;
   row-gap: 24px;
@@ -109,6 +110,7 @@
 @media (max-width: 800px) {
   .project-card {
     flex-direction: column;
+    height: 70vh;
   }
 
   .project-photo {
@@ -117,6 +119,10 @@
 
   .bio-block {
     flex-direction: column;
+  }
+
+  .skills-box {
+    margin-bottom: 80px;
   }
 }
 
