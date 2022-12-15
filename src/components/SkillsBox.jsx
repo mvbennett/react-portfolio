@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDOM from "react-dom";
 
 const SkillsBox = ({ stack }) => {
   const skills = Object.values(stack).map((tool) => {

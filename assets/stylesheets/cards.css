@@ -82,7 +82,7 @@
 
 .main-skill {
   background: linear-gradient(transparent 55%, rgba(255, 0, 10, 0.21) 10%, rgba(255, 0, 10, 0.21) 90%, transparent 120%);
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .divider {
@@ -101,13 +101,19 @@
   justify-content: center;
 }
 
+@media (max-width: 1330px) {
+  .main-skill {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1200px) {
   .project-info {
     flex-grow: 1;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1040px) {
   .project-card {
     flex-direction: column;
     height: 70vh;
@@ -139,6 +145,14 @@
 @media (max-width: 419px) {
   .bio-photo img {
     width: 350px;
+  }
+
+  .main-skill {
+    font-size: 18px;
+  }
+
+  .divider {
+    padding: 0 2px;
   }
 
   h2 {

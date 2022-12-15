@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDOM from "react-dom";
 
 const ProjectCard = ({ project }) => {
   const projectStack = project.stack.map((tool) => {

@@ -1,8 +1,6 @@
 import React from "react";
-// import ReactDOM from "react-dom";
 
 const BioCard = () => {
-  // AOS.init();
   return (
     <div className="bio-block">
       <div className="bio-photo" data-aos="fade-right">
@@ -15,8 +13,6 @@ const BioCard = () => {
           <span className="main-skill">JavaScript</span>
           <span className="divider">|</span>
           <span className="main-skill">React</span>
-          <span className="divider">|</span>
-          <span className="main-skill">Node</span>
         </h3>
         <p>
           Full stack web developer and freelance photographer in NYC.
