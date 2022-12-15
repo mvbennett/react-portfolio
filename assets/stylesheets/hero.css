@@ -1,0 +1,74 @@
+header {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 32px;
+}
+
+.title-container h1 {
+  margin: 0;
+}
+
+.first-name {
+  letter-spacing: 24px;
+  text-align: justify;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.last-name {
+  letter-spacing: 24px;
+  text-align: justify;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+
+.full-line {
+  letter-spacing: 1px;
+  text-align: justify;
+  grid-column: 3/4;
+  grid-row: 3;
+}
+
+.stack-line {
+  letter-spacing: 4px;
+  text-align: justify;
+  grid-column: 1/3;
+  grid-row: 4;
+}
+
+.developer-line {
+  letter-spacing: 9px;
+  grid-column: 1/4;
+  grid-row: 5;
+}
+
+@media (max-width: 800px) {
+  .title-container {
+    font-size: 18px;
+  }
+
+  .first-name {
+    letter-spacing: 21px;
+  }
+
+  .last-name {
+    letter-spacing: 21px;
+  }
+
+  .full-line {
+    letter-spacing: 4px;
+  }
+
+  .developer-line {
+    letter-spacing: 11px;
+  }
+}
