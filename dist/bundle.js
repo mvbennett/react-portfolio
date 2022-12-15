@@ -120,7 +120,7 @@ var BioCard = function BioCard() {
     className: "bio-photo",
     "data-aos": "fade-right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "./images/purple.jpg",
+    src: "./../../assets/images/purple.jpg",
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bio-info",
@@ -143,7 +143,7 @@ var BioCard = function BioCard() {
     className: "divider"
   }, "|"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "main-skill"
-  }, "ExpressJS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Full stack web developer and freelance photographer in NYC. Studied web development at Le Wagon in Tokyo and helped create two Ruby on Rails based apps in a four-person team. Currently looking for Full Stack web development positions in a small or medium sized company.")));
+  }, "ExpressJS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Full stack web developer and freelance photographer in NYC. Studied web development at Le Wagon in Tokyo and created two Ruby on Rails based apps in a four-person team. Currently looking for Full Stack web development positions in a small or medium sized company.")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BioCard);
 

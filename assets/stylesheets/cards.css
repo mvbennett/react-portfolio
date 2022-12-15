@@ -92,7 +92,7 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px;
-  margin: 8px auto;
+  margin: 8px auto 40px auto;
   display: grid;
   column-gap: 6%;
   row-gap: 24px;
