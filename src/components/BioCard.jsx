@@ -6,7 +6,7 @@ const BioCard = () => {
   return (
     <div className="bio-block">
       <div className="bio-photo" data-aos="fade-right">
-        <img src="./../../assets/images/purple.jpg" alt="" />
+        <img src="./images/purple.jpg" alt="" />
       </div>
       <div className="bio-info" data-aos="fade-left">
         <h3>
