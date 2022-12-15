@@ -6,18 +6,18 @@ const BioCard = () => {
   return (
     <div className="bio-block">
       <div className="bio-photo" data-aos="fade-right">
-        <img src="../../assets/images/purple.jpg" alt="" />
+        <img src="./../../assets/images/purple.jpg" alt="" />
       </div>
       <div className="bio-info" data-aos="fade-left">
         <h3>
           <span className="main-skill">Ruby on Rails</span>
-            |
+          <span className="divider">|</span>
           <span className="main-skill">JavaScript</span>
-            |
+          <span className="divider">|</span>
           <span className="main-skill">React</span>
-            |
+          <span className="divider">|</span>
           <span className="main-skill">Node</span>
-            |
+          <span className="divider">|</span>
           <span className="main-skill">ExpressJS</span>
         </h3>
         <p>

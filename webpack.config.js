@@ -29,6 +29,19 @@ module.exports = {
         test: /\.html$/,
         use: 'html-loader'
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name][md5:hash].[ext]',
+              outputPath: 'webpack-assets/',
+              publicPath: "/assets/webpack-assets/"
+            }
+          }
+        ]
+      }
     ]
   },
   resolve: {
