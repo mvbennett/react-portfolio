@@ -1,8 +1,8 @@
 import '../assets/stylesheets/application.scss';
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from './components/App';
 import AOS from "aos";
+import App from './components/App';
 
 const container = document.getElementById('root');
 if (container) {
