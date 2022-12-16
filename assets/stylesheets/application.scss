@@ -27,6 +27,10 @@ h2 {
   width: max-content;
 }
 
+#app {
+  width: 100%;
+}
+
 @media (max-width: 419px) {
   h2 {
     font-size: 40px;

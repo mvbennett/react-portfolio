@@ -25,7 +25,7 @@ const App = () => {
     webpack: { Webpack: "../assets/images/icons/webpack-icon.svg" }
   };
   return (
-    <div>
+    <div id="app">
       <Title />
       <div className="container">
         <BioCard />
