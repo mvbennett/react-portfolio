@@ -3,6 +3,7 @@ import Title from './Title';
 import BioCard from './BioCard';
 import Projects from './Projects';
 import SkillsBox from './SkillsBox';
+import Footer from "./Footer";
 
 const App = () => {
   const stack = {
@@ -31,6 +32,7 @@ const App = () => {
         <Projects stack={stack} />
         <SkillsBox stack={stack} />
       </div>
+      <Footer />
     </div>
 
   );

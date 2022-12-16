@@ -1,6 +1,6 @@
 header {
-  background-color: black;
-  color: white;
+  background-color: rgb(20,20,20);
+  color: rgb(245,245,245);
   height: 100vh;
   display: flex;
   justify-content: center;
