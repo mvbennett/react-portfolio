@@ -2,7 +2,6 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   const projectStack = project.stack.map((tool) => {
-    console.log(Object.values(tool)[0]);
     return (
       <img src={Object.values(tool)[0]} alt={Object.keys(tool)[0]} className="stack-skill" />
     );
