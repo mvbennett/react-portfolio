@@ -158,12 +158,12 @@ var Footer = function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.linkedin.com/in/mvbennett9/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../../assets/images/icons/linkedin.svg",
+    src: "../assets/images/icons/linkedin.svg",
     alt: "My Linkedin Profile"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/mvbennett"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "../../assets/images/icons/github.svg",
+    src: "../assets/images/icons/github.svg",
     alt: "My GitHub Profile"
   })));
 };
