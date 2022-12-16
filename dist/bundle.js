@@ -190,7 +190,6 @@ __webpack_require__.r(__webpack_exports__);
 var ProjectCard = function ProjectCard(_ref) {
   var project = _ref.project;
   var projectStack = project.stack.map(function (tool) {
-    console.log(Object.values(tool)[0]);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
       src: Object.values(tool)[0],
       alt: Object.keys(tool)[0],
