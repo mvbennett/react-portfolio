@@ -15,11 +15,10 @@ const BioCard = () => {
           <span className="main-skill">React</span>
         </h3>
         <p>
-          Full stack web developer and freelance photographer in NYC.
-          Studied web development at Le Wagon in Tokyo and created
-          two Ruby on Rails based apps in a four-person team.
-          Currently looking for Full Stack web development positions in a
-          small or medium sized company.
+          Full stack developer in NYC.
+          I want to create apps with a tangible impact on society.
+          I currently work for DexCare Inc. where the web app features I create
+          improve the experience of millions of patients seeking care per day.
         </p>
       </div>
     </div>
